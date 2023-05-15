@@ -42,3 +42,45 @@ while(campeon != "Argentina"){
     campeon = prompt("Ingrese el nombre del pais campeon");
 }
 }
+
+let edad = prompt("Ingrese su edad");
+let club = prompt("Ingrese su equipo de futbol");
+
+class Invitado{
+    constructor(nombre, edad, club) {
+    this.nombre = nombre;
+    this.edad = edad;
+    this.club = club;
+    }
+}
+
+const invitado1 = new Invitado(nombre, edad, club);
+alert(invitado1.nombre);
+alert(invitado1.edad);
+alert(invitado1.club);
+
+const afiliados = [
+    {id: 1, nombre: "Roberto", club: "Boca", deuda: 500},
+    {id: 2, nombre: "Dida", club: "River", deuda: 1000},
+    {id: 3, nombre: "Ronaldo", club: "San Lorenzo", deuda: 2000},
+    {id: 4, nombre: "Cafu", club: "Huracan", deuda: 1500},
+];
+
+for(const socio of afiliados){
+    let mensaje = `
+    id: ${socio.id}
+    nombre: ${socio.nombre}
+    club: ${socio.club}`;
+
+    alert(mensaje);
+}
+
+let deuda = parseInt(prompt("Ingrese valor de deuda"));
+let busqueda = afiliados.find(item => item.deuda === deuda);
+
+let mensaje = `
+    nombre: ${busqueda.nombre}
+    deuda: ${busqueda.deuda}`;
+
+alert(mensaje);
+
