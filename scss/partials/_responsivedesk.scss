@@ -1,0 +1,210 @@
+/*RESPONSIVE DESKTOP*/
+
+@use '../partials/variables';
+@media screen and (min-width: 1024px) {
+
+    /*BARRA DE NAVEGACION DESKTOP*/
+    
+    .conteiner-nav-mobile{
+        display: none;
+    }
+    
+    .conteiner-nav-desktop{
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        background-color: variables.$fondo-color;
+        color: variables.$texto-color;
+        font-family:'Oswald', sans-serif;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid azure;
+    }
+    
+    .nav-link{
+        color: variables.$texto-color;
+        font-family:'Oswald', sans-serif;
+        font-size: 20px;
+        margin: 8px;
+    }
+    
+    /*REDES SOCIALES DESKTOP*/
+    
+    .redes ul:hover a{
+        filter:blur(2px);
+    }
+    
+    .redes ul li a:hover{
+        transform: translateY(-3px) scale(1.05);
+        filter: none;
+    }
+    
+    .redes ul li .facebook:hover{
+        background: var(--facebook);
+    }
+    
+    .redes ul li .instagram:hover{
+        background: var(--instagram);
+    }
+    
+    .redes ul li .twitter:hover{
+        background: var(--twitter);
+    }
+    
+    .redes ul li .pinterest:hover{
+        background: var(--pinterest);
+    }
+    
+    .redes ul li .linkedin:hover{
+        background: var(--linkedin);
+    }
+    
+    /*IMAGENES JUGADORES DESKTOP*/
+    
+    section {
+        display: flex;
+    }
+    
+    section img {
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition:1s ease;
+    
+        &:hover {
+        cursor:crosshair;
+        opacity: 1;
+        filter: contrast(130%);
+        }
+    }
+    
+    /*CARTAS DESKTOP*/
+    
+    .contenedor_cartas{
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    
+    /*CONTACTO DESKTOP*/
+    
+    .contenedor_contacto{
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    
+    /*CORONADOS DESKTOP*/
+    
+    .peli{
+        background-color: variables.$fondo-color2;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    
+    .texto-coronados{
+        display: flex;
+        flex-direction: column;
+        background-color: variables.$fondo-color2;
+        padding-bottom: 3%;
+        padding-left: 16px;
+        padding-right: 16px;
+        color: variables.$texto-color;
+        font-family:'Oswald', sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 40px;
+    }
+    
+    /*INDUMENTARIA DESKTOP*/
+    
+    .carousel-control-prev{
+        display: none;
+    }
+    
+    .carousel-control-next{
+        display: none;
+    }
+    
+    .carousel-inner{
+        display: none;
+    }
+
+    .text_camiseta_mobile{
+        display: none;
+    }
+    
+    .img-camisetas-desktop{
+        display: flex;
+        background-color: variables.$fondo-color2;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .tamañocamiseta{
+        width: 25%;
+        height: 25%;
+    }
+    
+    .text_camiseta_desk{
+        display: flex;
+        background-color: variables.$fondo-color2;
+        color: variables.$texto-color;
+        width: 100%;
+        font-family:'Oswald', sans-serif;
+        text-align: justify;
+    }
+    
+    .text_camiseta_desk p{
+        width: 25%;
+        margin: 1%;
+    }
+    
+    .tit_camiseta_desk{
+        display: flex;
+        background-color: variables.$fondo-color2;
+        color: variables.$texto-color;
+        font-family:'Oswald', sans-serif;
+    }
+    
+    .tit_camiseta_desk p{
+        width: 25%;
+        margin: 1%;
+        text-align: center;
+    }
+    
+    /*CONTENIDO HOME DESKTOP*/
+    
+    .contenedor-home{
+        display: flex;
+        background-color: variables.$fondo-color2;
+        color: variables.$texto-color;
+        font-family:'Oswald', sans-serif;
+        padding-top: 7%;
+        padding-bottom: 2%;
+    }
+    
+    .texto-home{
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+    
+    .afa{
+        width: 25%;
+        border-radius: 10%;
+        margin-right: 2%;
+    }
+    
+    .text-home-desk{
+        display: flex;
+        margin-left: 1%;
+        margin-right: 4%;
+        margin-top: 5%;
+        letter-spacing: 3px;
+        line-height: 50px;
+        width: 100%;
+    }
+    
+}

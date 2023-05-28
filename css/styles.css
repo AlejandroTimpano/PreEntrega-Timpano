@@ -1,0 +1,452 @@
+@charset "UTF-8";
+/*GLOBALES*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*BARRA DE NAVEGACION*/
+.conteiner-nav-desktop {
+  display: none;
+}
+
+.conteiner-nav-mobile {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  border-bottom: 1px solid azure;
+}
+
+.navbar-nav {
+  color: azure;
+  height: 25vh;
+  align-items: center;
+}
+
+.container-fluid {
+  color: azure;
+  font-family: "Oswald", sans-serif;
+}
+
+/*JUGADORES - CARTAS*/
+.contenedor_cartas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color: #060f23;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+.card {
+  margin: 20px 10px;
+  border: 2px solid azure;
+}
+
+.card-body {
+  background-color: #163681;
+  color: azure;
+}
+
+.card-text {
+  font-family: "Oswald", sans-serif;
+}
+
+/*CONTACTO*/
+.contenedor_contacto {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  color: azure;
+  background-color: #060f23;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+/*MAPA CONTACTO*/
+.mapa {
+  height: 72vh;
+  margin: 1%;
+  border-radius: 8px;
+}
+
+/*TEXTO CONTACTO*/
+.texto_contacto {
+  background-image: linear-gradient(to bottom, #163681, rgb(30, 136, 172));
+  margin: 20px;
+  height: auto;
+  border-radius: 8px;
+  padding: 1%;
+  border: 2px solid azure;
+  box-shadow: 10px 20px 40px #163681;
+}
+
+/*FORMULARIO CONTACTO*/
+.formulario {
+  display: inline-block;
+  border-radius: 8px;
+  border: 2px solid azure;
+  box-shadow: 10px 20px 40px #163681;
+  background-color: #000000;
+  font-size: 1rem;
+  margin: 1%;
+  font-family: "Oswald", sans-serif;
+  color: azure;
+  width: 400px;
+  padding: 20px;
+}
+.formulario h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.botones {
+  font-size: 1.2rem;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  background: #163681;
+  padding: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: azure;
+  border-radius: 8px;
+}
+
+.controls {
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  border: 1px solid #585858;
+  margin-bottom: 10px;
+}
+
+.terminos {
+  text-align: center;
+}
+.terminos a {
+  text-decoration: none;
+  color: azure;
+}
+.terminos:hover {
+  text-decoration: underline;
+  color: azure;
+}
+
+.campos {
+  font-size: 1.5rem;
+  color: azure;
+}
+
+/*CORONADOS*/
+.peli {
+  background-color: #060f23;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+.pelicoronados {
+  width: 100%;
+  height: 70vh;
+}
+
+.texto-coronados {
+  display: none;
+}
+
+/*CAROUSEL DE INDUMENTARIA*/
+.carousel-item {
+  background-color: #060f23;
+  color: azure;
+  font-family: "Oswald", sans-serif;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+.carousel-caption {
+  background-color: #060f23;
+  border-radius: 20px;
+  padding: 1%;
+}
+
+.carousel-control-prev-icon {
+  background-color: #060f23;
+  border-radius: 4px;
+}
+
+.carousel-control-next-icon {
+  background-color: #060f23;
+  border-radius: 4px;
+}
+
+.img-camisetas-desktop {
+  display: none;
+}
+
+.text_camiseta_desk {
+  display: none;
+}
+
+.tit_camiseta_desk {
+  display: none;
+}
+
+.text_camiseta_mobile {
+  background-color: #060f23;
+  color: azure;
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+  padding: 16px;
+}
+
+/*CONTENIDO HOME*/
+.contenedor-home {
+  background-color: #060f23;
+  color: azure;
+  font-family: "Oswald", sans-serif;
+  text-align: justify;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.afa {
+  width: 100%;
+  height: 100%;
+}
+
+.text-home-desk {
+  display: none;
+}
+
+/*LOGO WHATSAPP FIXED*/
+.fixed-whatsapp {
+  position: fixed;
+  height: 3rem;
+  width: 5.5rem;
+  z-index: 1;
+  top: 90%;
+}
+
+.whatsapp {
+  height: 100%;
+  width: 100%;
+}
+
+/*PIE DE PAGINA*/
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  height: auto;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  background: #163681;
+  color: azure;
+}
+footer p {
+  width: 100%;
+  height: 100%;
+  font-size: 120%;
+}
+
+/*REDES SOCIALES*/
+:root {
+  --facebook: #3b5999;
+  --instagram: #e4405f;
+  --twitter: #55acee;
+  --pinterest: #bd081c;
+  --linkedin: #0077B5;
+}
+
+.redes ul li {
+  display: inline-block;
+  width: 50px;
+  margin: 10px;
+}
+.redes ul li a {
+  display: block;
+  padding: 0 10px;
+  background: #333;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+/*RESPONSIVE DESKTOP*/
+@media screen and (min-width: 1024px) {
+  /*BARRA DE NAVEGACION DESKTOP*/
+  .conteiner-nav-mobile {
+    display: none;
+  }
+  .conteiner-nav-desktop {
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: #163681;
+    color: azure;
+    font-family: "Oswald", sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid azure;
+  }
+  .nav-link {
+    color: azure;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin: 8px;
+  }
+  /*REDES SOCIALES DESKTOP*/
+  .redes ul:hover a {
+    filter: blur(2px);
+  }
+  .redes ul li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+  }
+  .redes ul li .facebook:hover {
+    background: var(--facebook);
+  }
+  .redes ul li .instagram:hover {
+    background: var(--instagram);
+  }
+  .redes ul li .twitter:hover {
+    background: var(--twitter);
+  }
+  .redes ul li .pinterest:hover {
+    background: var(--pinterest);
+  }
+  .redes ul li .linkedin:hover {
+    background: var(--linkedin);
+  }
+  /*IMAGENES JUGADORES DESKTOP*/
+  section {
+    display: flex;
+  }
+  section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 1s ease;
+  }
+  section img:hover {
+    cursor: crosshair;
+    opacity: 1;
+    filter: contrast(130%);
+  }
+  /*CARTAS DESKTOP*/
+  .contenedor_cartas {
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  /*CONTACTO DESKTOP*/
+  .contenedor_contacto {
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  /*CORONADOS DESKTOP*/
+  .peli {
+    background-color: #060f23;
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  .texto-coronados {
+    display: flex;
+    flex-direction: column;
+    background-color: #060f23;
+    padding-bottom: 3%;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: azure;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+  }
+  /*INDUMENTARIA DESKTOP*/
+  .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  .carousel-inner {
+    display: none;
+  }
+  .text_camiseta_mobile {
+    display: none;
+  }
+  .img-camisetas-desktop {
+    display: flex;
+    background-color: #060f23;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+  }
+  .tamañocamiseta {
+    width: 25%;
+    height: 25%;
+  }
+  .text_camiseta_desk {
+    display: flex;
+    background-color: #060f23;
+    color: azure;
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    text-align: justify;
+  }
+  .text_camiseta_desk p {
+    width: 25%;
+    margin: 1%;
+  }
+  .tit_camiseta_desk {
+    display: flex;
+    background-color: #060f23;
+    color: azure;
+    font-family: "Oswald", sans-serif;
+  }
+  .tit_camiseta_desk p {
+    width: 25%;
+    margin: 1%;
+    text-align: center;
+  }
+  /*CONTENIDO HOME DESKTOP*/
+  .contenedor-home {
+    display: flex;
+    background-color: #060f23;
+    color: azure;
+    font-family: "Oswald", sans-serif;
+    padding-top: 7%;
+    padding-bottom: 2%;
+  }
+  .texto-home {
+    margin-left: 2%;
+    margin-right: 4%;
+  }
+  .afa {
+    width: 25%;
+    border-radius: 10%;
+    margin-right: 2%;
+  }
+  .text-home-desk {
+    display: flex;
+    margin-left: 1%;
+    margin-right: 4%;
+    margin-top: 5%;
+    letter-spacing: 3px;
+    line-height: 50px;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

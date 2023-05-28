@@ -1,0 +1,25 @@
+/*BARRA DE NAVEGACION*/
+
+@use '../partials/variables';
+
+.conteiner-nav-desktop{
+    display: none;
+}
+
+.conteiner-nav-mobile{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 1px solid azure;
+}
+
+.navbar-nav{
+    color: variables.$texto-color;
+    height: 25vh;
+    align-items: center;
+}
+
+.container-fluid{
+    color: variables.$texto-color;
+    font-family:'Oswald', sans-serif;
+}

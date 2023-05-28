@@ -1,0 +1,20 @@
+/*LOGO WHATSAPP FIXED*/
+
+@use '../partials/variables';
+
+.fixed-whatsapp{
+    position: fixed;
+    height: 3rem;
+    width: 5.5rem;
+    z-index: 1;
+    top: 90%;
+}
+
+@mixin medidas($altura, $ancho){
+    height: $altura;
+    width: $ancho;
+}
+
+.whatsapp{
+    @include medidas(100%, 100%)
+}

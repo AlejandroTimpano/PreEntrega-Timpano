@@ -1,0 +1,48 @@
+/*PIE DE PAGINA*/
+
+@use '../partials/variables';
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    height: auto;
+    text-align: center;
+    font-family:'Oswald', sans-serif;
+    background: variables.$fondo-color;
+    color: variables.$texto-color;
+
+    p{
+        width: 100%;
+        height: 100%;
+        font-size: 120%;
+    }
+}
+
+
+/*REDES SOCIALES*/
+
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --pinterest: #bd081c;
+    --linkedin: #0077B5;
+}
+
+.redes ul li{
+    display: inline-block;
+    width: 50px;
+    margin: 10px;
+
+    a{
+        display: block;
+        padding: 0 10px;
+        background: #333;
+        color: #fff;
+        line-height: 50px;
+        font-size: 18px;
+        border-radius: 10px;
+        transition: .2s;
+    }
+}

@@ -1,0 +1,206 @@
+/*JUGADORES - CARTAS*/
+
+@use '../partials/variables';
+
+.contenedor_cartas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background-color:variables.$fondo-color2;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.card{
+    margin: 20px 10px;
+    border: 2px solid azure;
+}
+
+.card-body{
+    background-color:variables.$fondo-color;
+    color: variables.$texto-color;
+}
+
+.card-text{
+    font-family:'Oswald', sans-serif;
+}
+
+/*CONTACTO*/
+
+.contenedor_contacto{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: variables.$texto-color;
+    background-color: variables.$fondo-color2;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+/*MAPA CONTACTO*/
+
+.mapa{
+    height: 72vh;
+    margin: 1%;
+    border-radius: 8px;
+}
+
+/*TEXTO CONTACTO*/
+
+.texto_contacto{
+    background-image: linear-gradient(to bottom,variables.$fondo-color,rgb(30, 136, 172) );
+    margin: 20px;
+    height: auto;
+    border-radius: 8px;
+    padding: 1%;
+    border: 2px solid azure;
+    box-shadow: 10px 20px 40px variables.$fondo-color;
+}
+
+/*FORMULARIO CONTACTO*/
+
+.formulario{
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid azure;
+    box-shadow: 10px 20px 40px variables.$fondo-color;
+    background-color: #000000;
+    font-size: 1rem;
+    margin: 1%;
+    font-family:'Oswald', sans-serif;
+    color: variables.$texto-color;
+    width: 400px;
+    padding: 20px;
+
+    h1{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+}
+
+.botones{
+    font-size: 1.2rem;
+    width: 100%;
+    font-family:'Oswald', sans-serif;
+    background: variables.$fondo-color;
+    padding: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: variables.$texto-color;
+    border-radius: 8px;
+}
+
+.controls{
+    width: 100%;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    border: 1px solid #585858;
+    margin-bottom: 10px;
+}
+
+.terminos{
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color:variables.$texto-color;
+    }
+
+    &:hover{
+        text-decoration: underline;
+        color:variables.$texto-color;
+    }
+}
+
+.campos{
+    font-size: 1.5rem;
+    color: variables.$texto-color;
+}
+
+/*CORONADOS*/
+
+.peli{
+    background-color: variables.$fondo-color2;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.pelicoronados {
+    width: 100%;
+    height: 70vh;
+}
+
+.texto-coronados{
+    display: none;
+}
+
+/*CAROUSEL DE INDUMENTARIA*/
+
+.carousel-item{
+    background-color: variables.$fondo-color2;
+    color: variables.$texto-color;
+    font-family:'Oswald', sans-serif;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.carousel-caption{
+    background-color: variables.$fondo-color2;
+    border-radius: 20px;
+    padding: 1%;
+    
+}
+
+.carousel-control-prev-icon{
+    background-color: variables.$fondo-color2;
+    border-radius: 4px;
+}
+
+.carousel-control-next-icon{
+    background-color: variables.$fondo-color2;
+    border-radius: 4px;
+}
+
+.img-camisetas-desktop{
+    display: none;
+}
+.text_camiseta_desk{
+    display: none;
+}
+.tit_camiseta_desk{
+    display: none;
+}
+
+.text_camiseta_mobile{
+    background-color: variables.$fondo-color2 ;
+    color: variables.$texto-color;
+    text-align: justify;
+    font-family:'Oswald', sans-serif;
+    padding: 16px;
+}
+
+/*CONTENIDO HOME*/
+
+.contenedor-home{
+    background-color: variables.$fondo-color2;
+    color: variables.$texto-color;
+    font-family:'Oswald', sans-serif;
+    text-align: justify;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.afa{
+    width: 100%;
+    height: 100%;
+}
+
+.text-home-desk{
+    display: none;
+}
