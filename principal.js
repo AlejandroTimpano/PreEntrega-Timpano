@@ -84,3 +84,11 @@ let mensaje = `
 
 alert(mensaje);
 
+let saludo = document.getElementById("saludo");
+saludo.innerHTML = "<h1>Bienvenido</h1>";
+
+saludo.className = "formulario";
+
+let parrafo = document.createElement("p");
+parrafo.innerHTML = "<h1>Estamos desarrollando la pagina para la entrega final, pronto tendra todo integrado con su logica correspondiente, sepa disculpar.</h1>";
+saludo.append(parrafo);
