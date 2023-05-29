@@ -84,8 +84,18 @@ let mensaje = `
 
 alert(mensaje);
 
+const registro = edad >= 18 && nombre === "CODERHOUSE";
+console.log(registro);
+
+let huesped = sessionStorage.getItem("huesped");
+sessionStorage.setItem("huesped", nombre);
+
+let arreglo = afiliados;
+sessionStorage.setItem("arreglo", JSON.stringify(arreglo));
+console.log(sessionStorage);
+
 let saludo = document.getElementById("saludo");
-saludo.innerHTML = "<h1>Bienvenido</h1>";
+saludo.innerHTML = "<h1>Bienvenido</h1>"+ huesped;
 
 saludo.className = "formulario";
 
