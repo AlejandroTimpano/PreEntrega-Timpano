@@ -1,4 +1,4 @@
-let nombre = prompt("Ingrese su nombre");
+/*let nombre = prompt("Ingrese su nombre");
 
 if(nombre !=""){
 alert(nombre+", "+"bienvenido a Elijo Creer.")
@@ -84,7 +84,7 @@ let mensaje = `
 
 alert(mensaje);
 
-const registro = edad >= 18 && nombre === "CODERHOUSE";
+const registro = edad >= 18 && club === "CODERHOUSE";
 console.log(registro);
 
 let huesped = sessionStorage.getItem("huesped");
@@ -101,4 +101,4 @@ saludo.className = "formulario";
 
 let parrafo = document.createElement("p");
 parrafo.innerHTML = "<h1>Estamos desarrollando la pagina para la entrega final, pronto tendra todo integrado con su logica correspondiente, sepa disculpar.</h1>";
-saludo.append(parrafo);
+saludo.append(parrafo);*/
