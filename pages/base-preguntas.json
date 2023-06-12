@@ -1,0 +1,43 @@
+[
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿Quién gano la copa del mundo qatar 2022?",
+        "respuesta": "Argentina",
+        "incorrecta1": "Marruecos",
+        "incorrecta2": "Croacia",
+        "incorrecta3": "Francia",
+        "imagen": "https://media.tycsports.com/files/2022/06/16/441363/copa-del-mundo_416x234.webp?v=1",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿Quién fue el maximo goleador del mundial qatar 2022?",
+        "respuesta": "Kylian Mbappé",
+        "incorrecta1": "Lionel Messi",
+        "incorrecta2": "Julián Álvarez",
+        "incorrecta3": "Olivier Giroud",
+        "imagen": "https://www.futbolred.com/files/article_main/uploads/2022/12/14/639a79db2a16d.jpeg",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿Quien fue coronado como el mejor jugador del mundial qatar 2022",
+        "respuesta": "Lionel Messi",
+        "incorrecta1": "Cristiano Ronaldo",
+        "incorrecta2": "Luka Modrić",
+        "incorrecta3": "Antoine Griezmann",
+        "imagen": "https://www.infobae.com/new-resizer/Ys6dETsMlfCZZusC0oVTXuEGFes=/992x558/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/10/08152503/Cristiano-Ronaldo-Lionel-Messi-Luka-Modric-Antoine-Griezmann.jpg",
+        "objectFit": "cover"
+    }
+    ,
+    {
+        "categoria": "Deportes",
+        "pregunta": "¿Mejor arquero del mundial qatar 2022",
+        "respuesta": "Emiliano Martinez",
+        "incorrecta1": "Yassine Bounou",
+        "incorrecta2": "Dominik Livaković",
+        "incorrecta3": "Thibaut Courtois",
+        "imagen": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F1031%2Fr1084075_856x482_16%2D9.jpg&w=856&h=482&scale=crop&cquality=80&location=origin&format=jpg",
+        "objectFit": "cover"
+    }
+]

@@ -1,6 +1,6 @@
 # Curso 43065
 
-Curso de Coderhouse para la carrera Full Stack - Desarrollo Web.
+Curso de Coderhouse para la carrera Full Stack
 
 ## Descripción
 
